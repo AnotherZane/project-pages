@@ -1,21 +1,21 @@
 {
-  "name": "gulptemplate",
-  "version": "1.0.1",
-  "description": "A basic gulp template",
+  "name": "project-pages",
+  "version": "1.0.0",
+  "description": "A simple elegant template for your public projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnotherZane/GulpTemplate.git"
+    "url": "git+https://github.com/AnotherZane/project-pages.git"
   },
   "author": "Zane",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/AnotherZane/GulpTemplate/issues"
+    "url": "https://github.com/AnotherZane/project-pages/issues"
   },
-  "homepage": "https://github.com/AnotherZane/GulpTemplate#readme",
+  "homepage": "https://github.com/AnotherZane/project-pages#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-plumber": "^1.2.1",
