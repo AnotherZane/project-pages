@@ -1,8 +1,11 @@
 $primary-color: #4eb780;
+$primary-highlight: #3d9567;
 $content-color: #565b65;
 $content-header: #45474c;
 
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -78,6 +81,55 @@ body {
 
   a:hover {
     text-decoration: underline;
+  }
+
+  table {
+    width: 100%;
+    border: 1px solid #BFC4CE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    
+    th, td {
+      padding: 10px;
+      border-right: 1px solid #BFC4CE;
+    }
+
+    tr {
+      border-bottom: 1px solid #BFC4CE;
+    }
+
+    tr:nth-child(2n) {
+      background-color: #EFEFEF;
+    }
+  }
+
+  .button-filled {
+    display: inline-block;
+    margin: 15px 0;
+    color: #fff;
+    background-color: $primary-color;
+    padding: 10px 20px;
+  }
+  
+  .button-filled:hover {
+    text-decoration: none;
+    background-color: $primary-highlight;
+  }
+
+  .button-outlined {
+    text-decoration: none;
+    display: inline-block;
+    color: $primary-color;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border: 2px solid $primary-color;
+  }
+
+  .button-outlined:hover {
+    text-decoration: none;
+    color: $primary-color;
+    background-color: #EFEFEF;
   }
 }
 
